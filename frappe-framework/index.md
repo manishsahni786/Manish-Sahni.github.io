@@ -6,9 +6,7 @@ Frappe, pronounced fra-pay, is a full stack, batteries-included, web framework w
 
 ## Why Frappe?
 
-The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enablesn a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the helpDesk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.
- you to build front-ends very easily. We believe i
-This has enabled us to build and maintain a complex application like an ERP which has thousands of features with a small team of developers.
+The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.
 
 ## Rapid Application Development
 
