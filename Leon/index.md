@@ -1,4 +1,5 @@
 # Introduction
+
 Leon is an open-source personal assistant who can live on your server.He does stuff when you ask him to.
 
 You can talk to him and he can talk to you. You can also text him and he can also text you. If you want to, Leon can communicate with you by being offline to protect your privacy.
@@ -14,7 +15,9 @@ You can talk to him and he can talk to you. You can also text him and he can als
 - Privacy matters, you can configure Leon to talk with him offline. You can already text with him without any third party services.
 
 - Open source is great.
+
 ## What is this repository for?
+
 Link for Repo: https://github.com/leon-ai/leon
 
 This repository contains the following nodes of Leon:
@@ -25,9 +28,13 @@ This repository contains the following nodes of Leon:
 - The hotword node
 - The TCP server (for inter-process communication - between Leon and third-party processes such as spaCy)
 - The Python bridge (the connector between Python core and skills)
+
 ## Getting Started
+
 ---
+
 ## Prerequisites
+
 - Node.js >= 16
 - npm >= 8
 - Supported OSes: Linux, macOS and Windows
@@ -46,7 +53,9 @@ npm install --global @leon-ai/cli
 leon create birth
 # OR install from the develop branch: leon create birth --develop
 ```
+
 ## Usage
+
 ``` bash
 # Check the setup went well
 leon check
@@ -57,6 +66,7 @@ leon start
 # Go to http://localhost:1337
 # Hooray! Leon is running
 ```
+
 ```bash
 Docker Installation
 # Install Leon
@@ -68,40 +78,48 @@ leon start
 # Go to http://localhost:1337
 # Hooray! Leon is running
 ```
+
 ## 📚 Documentation
+
 ---
 For full documentation, visit docs.getleon.ai.
 
 ## 📺 Video
+
 ---
 Watch a demo.
 
 Link :https://www.youtube.com/watch?v=p7GRGiicO1c
 
 ## 🧭 Roadmap
+
 ---
 To know what is going on, follow roadmap.getleon.ai.
 
 ❤️ Contributing
+
 ---
 If you have an idea for improving Leon, do not hesitate.
 
 Leon needs open source to live, the more skills he has, the more skillful he becomes.
 
 ## 📖 The Story Behind Leon
+
 ---
 You'll find a write-up on this blog post.
 
 Link :https://blog.getleon.ai/the-story-behind-leon/
 
 ----
+
 ## Problems and Errors faces during installation of Leon.
 
 1. After running the  command leon create birth
  I faced any error saying:
 
 manny@manny-GF63-Thin-10SC:~/Desktop$ sudo leon create birth
-- ✔ Installing packages
+
+- ✔ Instalyling packages
 - ✔ Installing Python
 - ✔ Downloading Leon source code
 - ✖ Installing npm dependencies
@@ -111,7 +129,7 @@ For further information, look at the log file located at
 /root/.config/@leon-ai/cli/log-errors.txt
 Trying to find a solution for this error.
 
-2. And after that runing the same command again on     terminal there is an another error shown.
+2.And after that runing the same command again on     terminal there is an another error shown.
 
 manny@manny-GF63-Thin-10SC:~$ leon create birth
 
@@ -128,10 +146,13 @@ Solve both errors by runing following command:
 ``` bash
 manny@manny-GF63-Thin-10SC:~$ rm -rf /.leon
 ```
+
 After that i run the following commands.
+
 ``` bash
 manny@manny-GF63-Thin-10SC:~$ leon create birth
 ```
+
 - ✔ Downloading Leon source code
 - ✔ Installing npm dependencies
 - ✔ Building Leon core
@@ -142,5 +163,5 @@ exec $SHELL
 leon start
 
 Finally I started Leon on my linux system at the local host
-server at  http://localhost:1337 by running command
-leon start in the terminal.
+server at  <http://localhost:1337> by running command
+leon start in the terminal. 
