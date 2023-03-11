@@ -1,6 +1,6 @@
 # Leon a open-source personal assistant
 
-# Introduction 
+# Introduction
 
 Leon is an open-source personal assistant who can live on your server.He does stuff when you ask him to.
 
@@ -18,21 +18,6 @@ You can talk to him and he can talk to you. You can also text him and he can als
 
 - Open source is great.
 
-## What is this repository for?
-
-Link for Repo: https://github.com/leon-ai/leon
-
-This repository contains the following nodes of Leon:
-
-- The server
-- Skills
-- The web app
-- The hotword node
-- The TCP server (for inter-process communication - between Leon and third-party processes such as spaCy)
-- The Python bridge (the connector between Python core and skills)
-
-## Getting Started
-
 ---
 
 ## Prerequisites
@@ -43,11 +28,11 @@ This repository contains the following nodes of Leon:
 
 To install these prerequisites, you can follow the How To section of the documentation.
 
-Link is: https://docs.getleon.ai/how-to/
+Link is: <https://docs.getleon.ai/how-to/>
 
 ## Installation
 
-``` bash 
+``` bash
 # Install the Leon CLI
 npm install --global @leon-ai/cli
 
@@ -91,7 +76,7 @@ For full documentation, visit docs.getleon.ai.
 ---
 Watch a demo.
 
-Link :https://www.youtube.com/watch?v=p7GRGiicO1c
+Link :<https://www.youtube.com/watch?v=p7GRGiicO1c>
 
 ## 🧭 Roadmap
 
@@ -110,11 +95,11 @@ Leon needs open source to live, the more skills he has, the more skillful he bec
 ---
 You'll find a write-up on this blog post.
 
-Link :https://blog.getleon.ai/the-story-behind-leon/
+Link :<https://blog.getleon.ai/the-story-behind-leon/>
 
 ----
 
-## Problems and Errors faces during installation of Leon.
+## Problems and Errors faces during installation of Leon
 
 1. After running the  command leon create birth
  I faced any error saying:
@@ -166,4 +151,4 @@ leon start
 
 Finally I started Leon on my linux system at the local host
 server at  <http://localhost:1337> by running command
-leon start in the terminal. 
+leon start in the terminal.
